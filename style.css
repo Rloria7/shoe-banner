@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background: #ED213A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+section{
+display: flex;
+position: relative;
+padding: 2em;
+margin: 5em auto;
+line-height: 1.5;
+font-weight: 400;
+width: 900px;
+height: 500px;
+border-radius: 10px;
+background-image: url(bg1.jpeg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+box-shadow:5px 10px 5px rgba(0,0,0,0.7);
+}
+section:hover{
+transform: scale(1);
+transition: all 0.5s ease;
+}
+section h1{
+position: absolute;
+height: 10px;
+color: #fff;
+text-align: left;
+font-family: 'Russo One', sans-serif;
+text-shadow: 5px 6px 5px rgba(0,0,0,0.7);
+font-size: 65px;
+font-weight: 400;
+padding-top: 35px;
+}
+h1:hover{
+color: #FF726E;
+transition: all 0.5s ease;
+}
+nav ul li{
+list-style: none;
+padding-left: 10px;
+color: #fff;
+justify-content: space-around;
+font-size: 30px;
+font-weight: 250;
+display: inline-block;
+align-content: flex-end;
+}
+.one{
+position: absolute;
+text-align: center;
+right: 0;
+bottom: 0;
+height: 90px;
+width:400px;
+text-shadow: 5px 6px 5px rgba(0,0,0,0.7);
+}
+.two{
+padding-top: 25px;
+position: absolute;
+text-align: center;
+color: #fff;
+left: 0;
+bottom: 0;
+height: 250px;
+width: 250px;
+}
+.two h2{
+text-shadow: 5px 6px 5px rgba(0,0,0,0.7);
+}
+.three{
+right: 0;
+padding-top: 150px;
+width: 100px;
+height: 80px;
+justify-content: center;
+}
+.three ul li{
+list-style: none;
+}
+.three h2{
+color: #fff;
+font-size: 15px;
+text-align: center;
+}
+i:hover{
+transform: rotate(360deg);
+transition: all  0.5s ease;
+}
+footer{
+padding-bottom: 20px;
+padding-top: 30px;
+text-align: center;
+color: #fff;
+background: #333;
+}
+footer h3{
+font-size: 15px;
+}
+.row{
+text-decoration: none;
+color: #fff;
+}
+@media (max-width: 760px){
+.one h2{
+font-size: 20px;
+}
+}
